@@ -1,0 +1,36 @@
+{
+  "stories": [
+    {
+      "id": "5",
+      "title": "The Tinder Experiment",
+      "excerpt": "I matched with 5 strangers for a night none of us would forget...",
+      "category": "first-time",
+      "author": "Anonymous",
+      "length": "25 min read",
+      "image": "https://placehold.co/400x600/ff6b9e/white?text=Tinder",
+      "rating": "4.9",
+      "tags": ["dating app"]
+    },
+    {
+      "id": "1",
+      "title": "The Neighbor's Secret",
+      "excerpt": "When I discovered what my neighbor was hiding...",
+      "category": "first-time",
+      "author": "Elena Darkwood",
+      "length": "12 min read",
+      "image": "https://placehold.co/400x600/cc3366/white?text=Neighbor",
+      "rating": "4.8"
+    },
+    {
+      "id": "5",
+      "title": "The Tinder Experiment",
+      "excerpt": "I matched with 5 strangers...",
+      "category": "first-time",
+      "author": "Anonymous",
+      "length": "25 min read",
+      "image": "https://placehold.co/400x600/ff6b9e/white?text=Tinder",
+      "rating": "4.9"
+    }
+
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "stories": [
+    {
+      "id": "1",
+      "title": "The Neighbor's Secret",
+      "excerpt": "When I discovered what my neighbor was hiding in her basement...",
+      "category": "romance",
+      "author": "Elena Darkwood",
+      "length": "12 min read",
+      "image": "https://placehold.co/400x600/cc3366/white?text=Neighbor",
+      "rating": "4.8",
+      "tags": ["neighbor", "forbidden"]
+    },
+    {
+      "id": "2",
+      "title": "Office Retreat Gone Wild",
+      "excerpt": "The company retreat was supposed to be professional...",
+      "category": "workplace",
+      "author": "James Wilder",
+      "length": "18 min read",
+      "image": "https://placehold.co/400x600/9e5dff/white?text=Office",
+      "rating": "4.5",
+      "tags": ["colleagues", "business trip"]
+    },
+    {
+      "id": "3",
+      "title": "Professor's Private Lessons",
+      "excerpt": "Extra credit took on a whole new meaning...",
+      "category": "forbidden",
+      "author": "Sophia L.",
+      "length": "15 min read",
+      "image": "https://placehold.co/400x600/ff9e5d/white?text=Professor",
+      "rating": "4.7",
+      "tags": ["student-teacher"]
+    },
+    {
+      "id": "4",
+      "title": "Bachelorette Party Mishap",
+      "excerpt": "What was supposed to be a tame night with the girls...",
+      "category": "lesbian",
+      "author": "Katie & Amy",
+      "length": "14 min read",
+      "image": "https://placehold.co/400x600/5d9eff/white?text=Party",
+      "rating": "4.8",
+      "tags": ["friends to lovers"]
+    },
+     {
+      "id": "5",
+      "title": "The Tinder Experiment",
+      "excerpt": "I matched with 5 strangers for a night none of us would forget...",
+      "category": "first-time",
+      "author": "Anonymous",
+      "length": "25 min read",
+      "image": "https://placehold.co/400x600/ff6b9e/white?text=Tinder",
+      "rating": "4.9",
+      "tags": ["dating app"]
+    },
+    {
+      "id": "1",
+      "title": "The Neighbor's Secret",
+      "excerpt": "When I discovered what my neighbor was hiding...",
+      "category": "first-time",
+      "author": "Elena Darkwood",
+      "length": "12 min read",
+      "image": "https://placehold.co/400x600/cc3366/white?text=Neighbor",
+      "rating": "4.8"
+    },
+    {
+      "id": "5",
+      "title": "The Tinder Experiment",
+      "excerpt": "I matched with 5 strangers...",
+      "category": "first-time",
+      "author": "Anonymous",
+      "length": "25 min read",
+      "image": "https://placehold.co/400x600/ff6b9e/white?text=Tinder",
+      "rating": "4.9"
+    },
+      {
+      "id": "6",
+      "title": "Locked in the Library",
+      "excerpt": "We got stuck overnight with nothing but time and tension...",
+      "category": "workplace",
+      "author": "M. Cross",
+      "length": "22 min read",
+      "image": "https://placehold.co/400x600/ff9e5d/white?text=Library",
+      "rating": "4.6",
+      "tags": ["tension"]
+    },
+    {
+      "id": "7",
+      "title": "The Pool Boy's Secret",
+      "excerpt": "I hired him to clean the pool, but got much more...",
+      "category": "workplace",
+      "author": "Mrs. Robinson",
+      "length": "10 min read",
+      "image": "https://placehold.co/400x600/9e5dff/white?text=Pool",
+      "rating": "4.4",
+      "tags": ["older woman"]
+    },
+        {
+      "id": "8",
+      "title": "The Delivery",
+      "excerpt": "The pizza arrived late, but the delivery guy made it worth the wait...",
+      "category": "workplace",
+      "author": "Jenny T.",
+      "length": "8 min read",
+      "image": "https://placehold.co/400x600/5dff9e/white?text=Delivery",
+      "rating": "4.3",
+      "tags": ["stranger"]
+    }
+  ]
+}

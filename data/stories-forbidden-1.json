@@ -1,0 +1,15 @@
+{
+  "stories": [
+    {
+      "id": "3",
+      "title": "Professor's Private Lessons",
+      "excerpt": "Extra credit took on a whole new meaning...",
+      "category": "forbidden",
+      "author": "Sophia L.",
+      "length": "15 min read",
+      "image": "https://placehold.co/400x600/ff9e5d/white?text=Professor",
+      "rating": "4.7",
+      "tags": ["student-teacher"]
+    }
+  ]
+}

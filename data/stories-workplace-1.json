@@ -1,0 +1,37 @@
+{
+  "stories": [
+    {
+      "id": "6",
+      "title": "Locked in the Library",
+      "excerpt": "We got stuck overnight with nothing but time and tension...",
+      "category": "workplace",
+      "author": "M. Cross",
+      "length": "22 min read",
+      "image": "https://placehold.co/400x600/ff9e5d/white?text=Library",
+      "rating": "4.6",
+      "tags": ["tension"]
+    },
+    {
+      "id": "7",
+      "title": "The Pool Boy's Secret",
+      "excerpt": "I hired him to clean the pool, but got much more...",
+      "category": "workplace",
+      "author": "Mrs. Robinson",
+      "length": "10 min read",
+      "image": "https://placehold.co/400x600/9e5dff/white?text=Pool",
+      "rating": "4.4",
+      "tags": ["older woman"]
+    },
+        {
+      "id": "8",
+      "title": "The Delivery",
+      "excerpt": "The pizza arrived late, but the delivery guy made it worth the wait...",
+      "category": "workplace",
+      "author": "Jenny T.",
+      "length": "8 min read",
+      "image": "https://placehold.co/400x600/5dff9e/white?text=Delivery",
+      "rating": "4.3",
+      "tags": ["stranger"]
+    }
+  ]
+}

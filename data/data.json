@@ -1,0 +1,179 @@
+{
+  "siteInfo": {
+    "name": "Erotic Stories Hub",
+    "domain": "eroticstorieshub.com",
+    "description": "A premium collection of adult stories and videos for mature audiences",
+    "ageRestriction": 18,
+    "founded": "2023-01-15"
+  },
+  "navigation": {
+    "mainMenu": [
+      {
+        "title": "Stories",
+        "url": "/stories",
+        "submenu": [
+          {
+            "title": "Latest",
+            "url": "/stories/latest"
+          },
+          {
+            "title": "Top Rated",
+            "url": "/stories/top-rated"
+          },
+          {
+            "title": "Categories",
+            "url": "/stories/categories"
+          }
+        ]
+      },
+      {
+        "title": "Videos",
+        "url": "/videos",
+        "submenu": [
+          {
+            "title": "Amateur",
+            "url": "/videos/amateur"
+          },
+          {
+            "title": "Professional",
+            "url": "/videos/professional"
+          }
+        ]
+      },
+      {
+        "title": "Community",
+        "url": "/community"
+      }
+    ],
+    "footerLinks": [
+      {
+        "title": "Privacy Policy",
+        "url": "/privacy"
+      },
+      {
+        "title": "Terms of Service",
+        "url": "/terms"
+      },
+      {
+        "title": "DMCA",
+        "url": "/dmca"
+      },
+      {
+        "title": "2257 Statement",
+        "url": "/2257"
+      }
+    ]
+  },
+  "socialLinks": {
+    "telegram": "https://t.me/eroticstorieshub",
+    "twitter": "https://twitter.com/eroticstorieshub",
+    "rss": "/rss.xml"
+  },
+  "stories": [
+    {
+      "id": "story-001",
+      "title": "The Forbidden Office Affair",
+      "author": "author-001",
+      "content": "It started with an innocent coffee break...",
+      "excerpt": "When Sarah bumped into her boss in the break room, neither expected what would happen next...",
+      "categories": ["office", "boss", "forbidden"],
+      "tags": ["cheating", "power-dynamic", "slow-burn"],
+      "rating": 4.7,
+      "wordCount": 3421,
+      "datePublished": "2023-05-12",
+      "views": 12453,
+      "matureThemes": ["power-imbalance", "infidelity"]
+    },
+    {
+      "id": "story-002",
+      "title": "Beach Vacation Gone Wild",
+      "author": "author-002",
+      "content": "The summer heat wasn't the only thing making me sweat...",
+      "excerpt": "What started as a solo vacation turned into something much more exciting when I met the couple next door...",
+      "categories": ["vacation", "beach", "threesome"],
+      "tags": ["mmf", "bisexual", "public"],
+      "rating": 4.9,
+      "wordCount": 5120,
+      "datePublished": "2023-06-18",
+      "views": 18765,
+      "matureThemes": ["group-sex", "public-sex"]
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-001",
+      "title": "Passionate Office Encounter",
+      "description": "Two coworkers give in to their long-simmering attraction",
+      "duration": "12:45",
+      "thumbnail": "/thumbnails/video-001.jpg",
+      "url": "/videos/office-encounter",
+      "tags": ["office", "professional", "forbidden"],
+      "views": 45632,
+      "premium": false,
+      "dateAdded": "2023-04-22"
+    },
+    {
+      "id": "video-002",
+      "title": "Beachside Threesome",
+      "description": "A steamy encounter under the moonlight",
+      "duration": "18:30",
+      "thumbnail": "/thumbnails/video-002.jpg",
+      "url": "/videos/beach-threesome",
+      "tags": ["outdoor", "bisexual", "vacation"],
+      "views": 67891,
+      "premium": true,
+      "dateAdded": "2023-05-15"
+    }
+  ],
+  "authors": [
+    {
+      "id": "author-001",
+      "penName": "Elena Desires",
+      "bio": "Specializing in slow-burn erotic fiction with complex characters",
+      "joinDate": "2022-11-05",
+      "storyCount": 24,
+      "socialLinks": {
+        "twitter": "https://twitter.com/elenadesires"
+      },
+      "isVerified": true
+    },
+    {
+      "id": "author-002",
+      "penName": "Max Wilder",
+      "bio": "Creator of steamy vacation fantasies and forbidden encounters",
+      "joinDate": "2023-01-20",
+      "storyCount": 15,
+      "socialLinks": {
+        "telegram": "https://t.me/maxwilderwrites"
+      },
+      "isVerified": false
+    }
+  ],
+  "categories": [
+    {
+      "name": "Office",
+      "description": "Workplace fantasies and professional settings",
+      "storyCount": 142,
+      "videoCount": 36
+    },
+    {
+      "name": "Vacation",
+      "description": "Steamy encounters while traveling",
+      "storyCount": 87,
+      "videoCount": 29
+    },
+    {
+      "name": "Forbidden",
+      "description": "Taboo relationships and illicit affairs",
+      "storyCount": 203,
+      "videoCount": 54
+    }
+  ],
+  "siteSettings": {
+    "requireAgeVerification": true,
+    "allowUserSubmissions": true,
+    "commentsEnabled": true,
+    "adultContentWarning": true,
+    "defaultTheme": "dark"
+  }
+}
