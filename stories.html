@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passion Tales - Adult Stories & Videos</title>
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div>
+                    <h1>PassionTales</h1>
+                    <span>Erotic Stories & Videos</span>
+                </div>
+            </div>
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="./index.html"><i class="fas fa-home nav-icon"></i> Home</a></li>
+                    <li><a href="./stories.html"><i class="fas fa-book nav-icon"></i> Stories</a></li>
+                    <li><a href="./videos.html"><i class="fas fa-video nav-icon"></i> Videos</a></li>
+                    <!-- <li><a href="#"><i class="fas fa-users nav-icon"></i> Community</a></li> -->
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-bars nav-icon"></i> Categories <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Romantic</a>
+                            <a href="#">BDSM</a>
+                            <a href="#">Lesbian</a>
+                            <a href="#">Gay</a>
+                            <a href="#">Group</a>
+                            <a href="#">Fantasy</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search stories...">
+                    <button class="search-button"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link" title="Twitter/X"><i class="fab fa-twitter"></i></a>
+                </div>
+                
+                <!-- <div class="user-controls">
+                    <div class="auth-buttons">
+                        <button class="btn btn-primary">Login</button>
+                        <button class="btn btn-outline">Sign Up</button>
+                    </div>
+                </div> -->
+                
+                <button class="mobile-menu-btn" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="stories-container">
+        <div class="page-header">
+            <h1>Erotic Stories Collection</h1>
+            <p>Explore our curated selection of sensual stories to ignite your imagination</p>
+        </div>
+        
+        <div class="filter-controls">
+            <button class="filter-btn active" data-category="all">All Stories</button>
+            <button class="filter-btn" data-category="romance">Romance</button>
+            <button class="filter-btn" data-category="bdsm">BDSM</button>
+            <button class="filter-btn" data-category="lgbt">LGBTQ+</button>
+            <button class="filter-btn" data-category="fantasy">Fantasy</button>
+            <button class="filter-btn" data-category="real-life">Real Life</button>
+        </div>
+        
+        <div class="stories-grid" id="storiesGrid">
+            <!-- Stories will be loaded here by JavaScript -->
+        </div>
+        
+        <div class="pagination">
+            <button class="pagination-btn" id="prevBtn">Previous</button>
+            <button class="pagination-btn active">1</button>
+            <button class="pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <button class="pagination-btn" id="nextBtn">Next</button>
+        </div>
+    </div>
+
+ 
+    <!-- Your website content here -->
+   <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo-placeholder.svg" alt="Erotic Stories">
+            </div>
+            
+            <div class="footer-section">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="/stories">Erotic Stories</a></li>
+                    <li><a href="/videos">Adult Videos</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/authors">Featured Authors</a></li>
+                    <li><a href="/new">Latest Content</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="/forum">Discussion Forum</a></li>
+                    <li><a href="/submit">Submit Your Story</a></li>
+                    <li><a href="/contests">Monthly Contests</a></li>
+                    <li><a href="/guidelines">Community Guidelines</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/dmca">DMCA</a></li>
+                    <li><a href="/2257">2257 Statement</a></li>
+                    <li><a href="/cookies">Cookie Policy</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us for daily updates and exclusive content:</p>
+                <div class="social-links">
+                    <a href="https://telegram.org" target="_blank" aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" aria-label="RSS">
+                        <i class="fas fa-rss"></i>
+                    </a>
+                </div>
+                
+                <div class="age-gate">
+                    <span class="age-gate-icon">🔞</span>
+                    <span>18+ Only</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 Erotic Stories Blog. All rights reserved. All models are 18+ years old.</p>
+        </div>
+    </footer>
+    
+    <!-- Age Verification Modal -->
+    <div class="age-modal" id="ageModal">
+        <div class="age-modal-content">
+            <h2>Age Verification</h2>
+            <p>This website contains adult content and is only suitable for those who are 18 years or older. By entering, you confirm that you are at least 18 years of age or the age of majority in your jurisdiction.</p>
+            <div class="age-buttons">
+                <button class="age-btn exit" id="exitBtn">I'm Under 18</button>
+                <button class="age-btn enter" id="enterBtn">I'm 18 or Older</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    <script>
+        // Age verification logic
+        document.addEventListener('DOMContentLoaded', function() {
+            const ageModal = document.getElementById('ageModal');
+            const exitBtn = document.getElementById('exitBtn');
+            const enterBtn = document.getElementById('enterBtn');
+            
+            // Check if age is already verified
+            if (!localStorage.getItem('ageVerified')) {
+                ageModal.style.display = 'flex';
+            }
+            
+            exitBtn.addEventListener('click', function() {
+                window.location.href = 'https://www.google.com';
+            });
+            
+            enterBtn.addEventListener('click', function() {
+                localStorage.setItem('ageVerified', 'true');
+                ageModal.style.display = 'none';
+            });
+            
+            // Cookie consent banner would typically go here
+            // Implement cookie consent logic as needed
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+        
+        mobileMenuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            
+            // Change icon based on menu state
+            const icon = mobileMenuToggle.querySelector('i');
+            if (mainNav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        // Search functionality
+        const searchInput = document.querySelector('.search-bar input');
+        const searchButton = document.querySelector('.search-bar button');
+        
+        searchButton.addEventListener('click', () => {
+            if (searchInput.value.trim() !== '') {
+                alert(`Searching for: ${searchInput.value}`);
+                // In a real implementation, you would redirect to search results
+                // window.location.href = `/search?q=${encodeURIComponent(searchInput.value)}`;
+            }
+        });
+        
+        // Allow search on Enter key
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && searchInput.value.trim() !== '') {
+                alert(`Searching for: ${searchInput.value}`);
+                // window.location.href = `/search?q=${encodeURIComponent(searchInput.value)}`;
+            }
+        });
+        
+        // Dropdown stays open when hovering over it
+        const dropdowns = document.querySelectorAll('.dropdown');
+        
+        dropdowns.forEach(dropdown => {
+            dropdown.addEventListener('mouseenter', () => {
+                dropdown.querySelector('.dropdown-content').style.display = 'block';
+            });
+            
+            dropdown.addEventListener('mouseleave', () => {
+                dropdown.querySelector('.dropdown-content').style.display = 'none';
+            });
+        });
+    </script>
+
+     <script>
+        // Sample data structure (would normally come from data.json)
+       
+
+        // DOM Elements
+        const storiesGrid = document.getElementById('storiesGrid');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        
+        // Load stories from JSON (in real implementation, this would be fetch('data.json'))
+        function loadStories() {
+            // In a real implementation, you would use:
+            // fetch('data.json')
+            //     .then(response => response.json())
+            //     .then(data => displayStories(data.stories))
+            //     .catch(error => console.error('Error loading stories:', error));
+            
+            // For this demo, we're using the sample data
+            displayStories(sampleData.stories);
+        }
+        
+        // Display stories in the grid
+        function displayStories(stories) {
+            storiesGrid.innerHTML = '';
+            
+            stories.forEach(story => {
+                const storyCard = document.createElement('a');
+                storyCard.href = `/story.html?id=${story.id}`;
+                storyCard.className = 'story-card';
+                storyCard.dataset.category = story.category;
+                
+                storyCard.innerHTML = `
+                    <div class="card-image">
+                        <img src="${story.image}" alt="${story.title}">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-category">${story.category}</span>
+                        <h3 class="card-title">${story.title}</h3>
+                        <p class="card-excerpt">${story.excerpt}</p>
+                        <div class="card-meta">
+                            <span class="card-author">${story.author}</span>
+                            <span class="card-length">⏱️ ${story.length}</span>
+                        </div>
+                    </div>
+                `;
+                
+                storiesGrid.appendChild(storyCard);
+            });
+        }
+        
+        // Filter stories by category
+        function filterStories(category) {
+            if (category === 'all') {
+                displayStories(sampleData.stories);
+                return;
+            }
+            
+            const filteredStories = sampleData.stories.filter(story => story.category === category);
+            displayStories(filteredStories);
+        }
+        
+        // Event Listeners
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                filterStories(btn.dataset.category);
+            });
+        });
+        
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', loadStories);
+    </script>
+</body>
+</html>
