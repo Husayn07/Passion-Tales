@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "All",
+      "slug": "all",
+      "count": 8,
+      "color": "#cc3366"
+    },
+    {
+      "name": "Erotic",
+      "slug": "erotic",
+      "count": 2,
+      "color": "#ff6b9e"
+    },
+    {
+      "name": "Workplace",
+      "slug": "workplace",
+      "count": 2,
+      "color": "#9e5dff"
+    },
+    {
+      "name": "Gay",
+      "slug": "gay",
+      "count": 2,
+      "color": "#ff9e5d"
+    },
+    {
+      "name": "Lesbian",
+      "slug": "lesbian",
+      "count": 1,
+      "color": "#5d9eff"
+    },
+    {
+      "name": "Quickie",
+      "slug": "quickie",
+      "count": 1,
+      "color": "#5dff9e"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "videos": [
+    {
+      "id": "vid0010",
+      "title": "Late Night Office Encounter",
+      "category": "office",
+      "poster": "thumbnails/office1.jpg",
+      "videoUrl": "https://youtu.be/yj0njH4K4ZU",
+      "description": "A steamy after-hours affair.",
+      "uploader": "Admin",
+      "length": "4:12"
+    },
+    {
+      "id": "vid0020",
+      "title": "Romantic Getaway",
+      "category": "romance",
+      "poster": "thumbnails/romance1.jpg",
+      "videoUrl": "https://youtu.be/yj0njH4K4ZU",
+      "description": "A couple escapes to paradise.",
+      "uploader": "Luna",
+      "length": "6:05"
+    }
+  ]
+}
