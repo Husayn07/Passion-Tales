@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passion Tales - Adult Stories & Videos</title>
-    <link rel="stylesheet" href="main.css">
-
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="A collection of erotic stories for mature audiences">
+    <title>Passion Tales | Erotic Stories for Adults</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/main.css" >
 </head>
 <body>
-    <header>
+        <header>
         <div class="header-container">
             <div class="logo">
                 <div>
@@ -64,36 +63,33 @@
         </div>
     </header>
 
-    <div class="stories-container">
-        <div class="page-header">
-            <h1>Erotic Stories Collection</h1>
-            <p>Explore our curated selection of sensual stories to ignite your imagination</p>
-        </div>
+
+    <!-- <header>
+        <h1>Passion Tales</h1>
+        <p>Erotic stories for discerning adults</p>
         
-        <div class="filter-controls">
-            <button class="filter-btn active" data-category="all">All Stories</button>
-            <button class="filter-btn" data-category="romance">Romance</button>
-            <button class="filter-btn" data-category="bdsm">BDSM</button>
-            <button class="filter-btn" data-category="lgbt">LGBTQ+</button>
-            <button class="filter-btn" data-category="fantasy">Fantasy</button>
-            <button class="filter-btn" data-category="real-life">Real Life</button>
+        <div class="age-warning" role="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span>This website contains adult content and is only suitable for those 18 years or older</span>
         </div>
+    </header> -->
+    
+    <main>
+        <!-- Fixed filters container - removed the inner button -->
+        <div class="filters" id="filtersContainer"></div>
         
         <div class="stories-grid" id="storiesGrid">
-            <!-- Stories will be loaded here by JavaScript -->
+            <!-- Stories will be loaded here dynamically -->
         </div>
         
-        <div class="pagination">
-            <button class="pagination-btn" id="prevBtn">Previous</button>
-            <button class="pagination-btn active">1</button>
-            <button class="pagination-btn">2</button>
-            <button class="pagination-btn">3</button>
-            <button class="pagination-btn" id="nextBtn">Next</button>
-        </div>
-    </div>
-
- 
-    <!-- Your website content here -->
+        <button class="load-more" id="loadMoreBtn">Load More Stories</button>
+    </main>
+    
+   <!-- Your website content here -->
    <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
@@ -172,44 +168,8 @@
     </div>
     
     <!-- Font Awesome for icons -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    
-    <script>
-        // Age verification logic
-        document.addEventListener('DOMContentLoaded', function() {
-            const ageModal = document.getElementById('ageModal');
-            const exitBtn = document.getElementById('exitBtn');
-            const enterBtn = document.getElementById('enterBtn');
-            
-            // Check if age is already verified
-            if (!localStorage.getItem('ageVerified')) {
-                ageModal.style.display = 'flex';
-            }
-            
-            exitBtn.addEventListener('click', function() {
-                window.location.href = 'https://www.google.com';
-            });
-            
-            enterBtn.addEventListener('click', function() {
-                localStorage.setItem('ageVerified', 'true');
-                ageModal.style.display = 'none';
-            });
-            
-            // Cookie consent banner would typically go here
-            // Implement cookie consent logic as needed
-        });
-        
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+    <script src="./src/age.js"></script>
     <script>
         // Mobile menu toggle
         const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
@@ -262,78 +222,6 @@
             });
         });
     </script>
-
-     <script>
-        // Sample data structure (would normally come from data.json)
-       
-
-        // DOM Elements
-        const storiesGrid = document.getElementById('storiesGrid');
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        
-        // Load stories from JSON (in real implementation, this would be fetch('data.json'))
-        function loadStories() {
-            // In a real implementation, you would use:
-            // fetch('data.json')
-            //     .then(response => response.json())
-            //     .then(data => displayStories(data.stories))
-            //     .catch(error => console.error('Error loading stories:', error));
-            
-            // For this demo, we're using the sample data
-            displayStories(sampleData.stories);
-        }
-        
-        // Display stories in the grid
-        function displayStories(stories) {
-            storiesGrid.innerHTML = '';
-            
-            stories.forEach(story => {
-                const storyCard = document.createElement('a');
-                storyCard.href = `/story.html?id=${story.id}`;
-                storyCard.className = 'story-card';
-                storyCard.dataset.category = story.category;
-                
-                storyCard.innerHTML = `
-                    <div class="card-image">
-                        <img src="${story.image}" alt="${story.title}">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-category">${story.category}</span>
-                        <h3 class="card-title">${story.title}</h3>
-                        <p class="card-excerpt">${story.excerpt}</p>
-                        <div class="card-meta">
-                            <span class="card-author">${story.author}</span>
-                            <span class="card-length">⏱️ ${story.length}</span>
-                        </div>
-                    </div>
-                `;
-                
-                storiesGrid.appendChild(storyCard);
-            });
-        }
-        
-        // Filter stories by category
-        function filterStories(category) {
-            if (category === 'all') {
-                displayStories(sampleData.stories);
-                return;
-            }
-            
-            const filteredStories = sampleData.stories.filter(story => story.category === category);
-            displayStories(filteredStories);
-        }
-        
-        // Event Listeners
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                filterStories(btn.dataset.category);
-            });
-        });
-        
-        // Initialize the page
-        document.addEventListener('DOMContentLoaded', loadStories);
-    </script>
+    <script src="./src/scripts.js"></script>
 </body>
 </html>
