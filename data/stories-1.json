@@ -9,7 +9,8 @@
       "length": "12 min read",
       "image": "https://placehold.co/400x600/cc3366/white?text=Neighbor",
       "rating": "4.8",
-      "tags": ["neighbor", "forbidden"]
+      "tags": ["neighbor", "forbidden"],
+      "content": "<p>The grand ballroom glittered with a thousand candles. Everyone wore masks, creating an air of mystery and possibility. I didn't recognize a soul - until I saw him.</p><p>Even with the ornate fox mask covering half his face, I knew it was Lord Alistair. We'd exchanged letters for months, but never met in person. His presence was magnetic, drawing me across the crowded room.</p><p>\"My raven,\" he murmured, taking my hand. His voice was exactly as I'd imagined - deep and resonant.</p><p>We danced, his hand firm on my back, guiding me through steps I didn't know I knew. With each turn, he pulled me closer, until our bodies were flush against each other, scandalously close for a public ball.</p><p>\"I can't bear this charade any longer,\" he whispered against my ear. \"Come with me.\"</p><p>He led me through hidden passages to a private balcony overlooking the moonlit gardens. There, he removed his mask, and I saw the face I'd dreamed of for so long.</p><p>His kiss was demanding, claiming. My mask fell to the floor as his hands roamed my body, loosening laces, exposing skin to the cool night air. Against the stone balustrade, he took me with a passion that matched the intensity of our letters.</p><p>Later, as we lay entangled on a velvet chaise, he traced patterns on my bare skin. \"I've waited a lifetime for this,\" he confessed.</p><p>In that moment, the masks we'd both worn - literal and figurative - fell away completely, revealing a connection that would change both our lives forever.</p>"
     },
     {
       "id": "2",
@@ -56,7 +57,7 @@
       "tags": ["dating app"]
     },
     {
-      "id": "1",
+      "id": "6",
       "title": "The Neighbor's Secret",
       "excerpt": "When I discovered what my neighbor was hiding...",
       "category": "first-time",
@@ -66,7 +67,7 @@
       "rating": "4.8"
     },
     {
-      "id": "5",
+      "id": "7",
       "title": "The Tinder Experiment",
       "excerpt": "I matched with 5 strangers...",
       "category": "first-time",
@@ -76,7 +77,7 @@
       "rating": "4.9"
     },
       {
-      "id": "6",
+      "id": "8",
       "title": "Locked in the Library",
       "excerpt": "We got stuck overnight with nothing but time and tension...",
       "category": "workplace",
@@ -87,7 +88,7 @@
       "tags": ["tension"]
     },
     {
-      "id": "7",
+      "id": "9",
       "title": "The Pool Boy's Secret",
       "excerpt": "I hired him to clean the pool, but got much more...",
       "category": "workplace",
@@ -98,7 +99,7 @@
       "tags": ["older woman"]
     },
         {
-      "id": "8",
+      "id": "10",
       "title": "The Delivery",
       "excerpt": "The pizza arrived late, but the delivery guy made it worth the wait...",
       "category": "workplace",
