@@ -1,7 +1,7 @@
 {
   "videos": [
     {
-      "id": "vid001",
+      "id": 3,
       "title": "Late Night Office Encounter",
       "category": "office",
       "poster": "thumbnails/office1.jpg",
@@ -11,7 +11,7 @@
       "length": "4:12"
     },
     {
-      "id": "vid002",
+      "id": 4,
       "title": "Romantic Getaway",
       "category": "romance",
       "poster": "thumbnails/romance1.jpg",

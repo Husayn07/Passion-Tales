@@ -1,24 +1,30 @@
 {
   "videos": [
     {
-      "id": "vid001",
-      "title": "Late Night Office Encounter",
+      "id": 1,
+      "title": "Passionate Encounter",
+      "actress": "Sophia Lane",
       "category": "office",
-      "poster": "thumbnails/office1.jpg",
-      "videoUrl": "https://youtu.be/yj0njH4K4ZU",
-      "description": "A steamy after-hours affair.",
-      "uploader": "Admin",
-      "length": "4:12"
+      "duration": "12:45",
+      "views": "24K",
+      "date": "2023-10-15",
+      "thumbnail": "path/to/thumbnail.jpg",
+      "videoUrl": "./a.mp4",
+      "description": "A passionate encounter between two strangers...",
+      "tags": ["romantic", "passionate", "HD"]
     },
     {
-      "id": "vid002",
-      "title": "Romantic Getaway",
-      "category": "romance",
-      "poster": "thumbnails/romance1.jpg",
-      "videoUrl": "https://youtu.be/yj0njH4K4ZU",
-      "description": "A couple escapes to paradise.",
-      "uploader": "Luna",
-      "length": "6:05"
+      "id": 2,
+      "title": "Office Fantasy",
+      "actress": "Emma Johnson",
+      "category": "office",
+      "duration": "18:22",
+      "views": "32K",
+      "date": "2023-10-12",
+      "thumbnail": "path/to/thumbnail2.jpg",
+      "videoUrl": "path/to/video2.mp4",
+      "description": "An office fantasy comes to life...",
+      "tags": ["office", "roleplay", "fantasy"]
     }
   ]
 }

@@ -20,24 +20,24 @@
             padding: 0 20px;
         }
         
-        /* header {
+        header {
             background: linear-gradient(to right, #ff4c68, #ff8c9f);
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
             position: sticky;
             top: 0;
             z-index: 100;
-        } */
+        } 
         
-        .header-container {
+         .header-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 15px 0;
-        }
+        } 
         
-        .logo {
+         .logo {
             display: flex;
             align-items: center;
+            cursor: pointer;
         }
         
         .logo h1 {
@@ -51,7 +51,7 @@
             color: #ffecf0;
             display: block;
             margin-top: 3px;
-        }
+        } 
         
         .back-btn {
             background: white;
