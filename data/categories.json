@@ -7,32 +7,38 @@
       "color": "#cc3366"
     },
     {
-      "name": "First Time",
-      "slug": "first-time",
+      "name": "Romance",
+      "slug": "romance",
       "count": 2,
       "color": "#ff6b9e"
     },
     {
-      "name": "Workplace",
-      "slug": "workplace",
+      "name": "Lesbian",
+      "slug": "lesbian",
       "count": 2,
       "color": "#9e5dff"
     },
     {
-      "name": "Forbidden",
-      "slug": "forbidden",
+      "name": "Gay",
+      "slug": "gay",
       "count": 2,
       "color": "#ff9e5d"
     },
     {
-      "name": "Lesbian",
-      "slug": "lesbian",
+      "name": "BDSM",
+      "slug": "bdsm",
       "count": 1,
       "color": "#5d9eff"
     },
     {
-      "name": "Quickie",
-      "slug": "quickie",
+      "name": "Fantasy",
+      "slug": "fantasy",
+      "count": 1,
+      "color": "#5dff9e"
+    },
+    {
+      "name": "Group",
+      "slug": "group",
       "count": 1,
       "color": "#5dff9e"
     }
