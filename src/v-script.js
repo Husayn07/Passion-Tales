@@ -9,6 +9,103 @@ let currentCategory = 'all';
 let isLoading = false;
 let categoriesData = [];
 
+// /////////////////////////intoduction of a script
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Parse URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryFilter = urlParams.get('category');
+    const searchQuery = urlParams.get('q');
+
+    // Activate filters if parameters exist
+    if (categoryFilter) {
+        activateCategoryFilter(categoryFilter);
+    }
+    
+    if (searchQuery) {
+        document.querySelector('.search-bar input').value = searchQuery;
+        performSearch(searchQuery);
+    }
+
+    // Add event listeners to filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const category = btn.dataset.category;
+            setCategoryFilter(category);
+        });
+    });
+});
+
+// Filter activation functions
+function activateCategoryFilter(category) {
+    // Update UI
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        if (btn.dataset.category === category) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    // Filter videos
+    const videos = document.querySelectorAll('.video-card');
+    videos.forEach(video => {
+        const videoCategory = video.dataset.category.toLowerCase();
+        if (category === 'all' || videoCategory === category) {
+            video.style.display = 'block';
+        } else {
+            video.style.display = 'none';
+        }
+    });
+}
+
+function setCategoryFilter(category) {
+    // Update URL without reloading page
+    const url = new URL(window.location);
+    url.searchParams.set('category', category);
+    window.history.pushState({}, '', url);
+    
+    // Apply filter
+    activateCategoryFilter(category);
+}
+
+function performSearch(query) {
+    const videos = document.querySelectorAll('.video-card');
+    const searchTerm = query.toLowerCase();
+    
+    videos.forEach(video => {
+        const title = video.querySelector('.video-title').textContent.toLowerCase();
+        const description = video.querySelector('.video-description').textContent.toLowerCase();
+        
+        if (title.includes(searchTerm) || description.includes(searchTerm)) {
+            video.style.display = 'block';
+        } else {
+            video.style.display = 'none';
+        }
+    });
+}
+
+// Initialize filter buttons
+function initFilters() {
+    const filtersContainer = document.getElementById('filtersContainer');
+    const categories = ['all', 'romantic', 'bdsm', 'lesbian', 'gay', 'group', 'fantasy'];
+    
+    categories.forEach(category => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.dataset.category = category;
+        btn.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+        filtersContainer.appendChild(btn);
+    });
+}
+
+// Call this in your existing script where you initialize the page
+initFilters();
+
+
+//////////////////////////end of script 
+
+
 // Initialize the application
 async function init() {
     if (!localStorage.getItem('ageVerified')) {

@@ -1,4 +1,7 @@
- /* ===== CSS VARIABLES FOR THEME ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ===== CSS VARIABLES FOR THEME ===== */
         :root {
             /* Color scheme */
             --primary: #ff4c68;
@@ -25,7 +28,7 @@
         }
 
         body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            font-family: 'Comic Relief', system-ui, -apple-system, sans-serif !important;
             background-color: var(--dark-bg);
             color: var(--text-light);
             line-height: 1.6;
